@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tiffo's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+<body>
+  <div id="firstPage" class="container-fluid">
+
+      <!--    
+      <div class="container2 container-fluid col-lg-4 col-sm-12">
+        <div class="circle2 container-fluid"> 
+          <img src="style/images/web.png" class="circle2">
+        </div>
+      </div>
+       -->
+       <div class="container-fluid blinkBox">
+       <img src="style/images/yellow.png" class="blink">
+       <img src="style/images/blue.png" class="blink2">
+       <img src="style/images/teal.png" class="blink">
+       <img src="style/images/purple.png" class="blink2">
+       <img src="style/images/yellow.png" class="blink">
+       <img src="style/images/blue.png" class="blink2">
+       <img src="style/images/teal.png" class="blink">
+
+      </div>
+
+      <div class="container1 container-fluid">
+          <div class="circle1 container-fluid"> 
+          <img src="style/images/pastel.PNG" class="circle1">
+          </div>
+      </div>
+      
+    <!--  
+      <div class="container3 container-fluid col-lg-4 col-sm-12">
+          <div class="circle3 container-fluid">
+              <img src="style/images/project.png" class="circle3">
+          </div>
+        </div>
+         -->
+  </div>
+ 
+
+
+      <div class="navigation contain-fluid" id="navBar">
+          <span id="home"><a href="" style="color:white;">HOME</a></span>
+          <span id="about"><a href="#intro" style="color:white;"> ABOUT</a></span>
+          <span id="projects"><a href="#portfolio" style="color:white;"> FLAVOURS</a></span>
+          <span id="contacts"><a href="#email" style="color:white;"> CONTACT</a></span>
+        </div>
+
+<div id="main" class="container-fluid content ">
+
+    <div class="box2 container-fluid col-lg-12 col-md-12 col-sm-12" id="portfolio">
+         
+            <br>
+            
+      <div class="container3 container-fluid col-lg-4 col-sm-12">
+          <div class="circle3 container-fluid">
+              <img src="style/images/project.png" class="circle3">
+          </div>
+      </div>
+
+      <img src="style/images/purple.png" class="blink2">
+      <img src="style/images/yellow.png" class="blink">
+
+
+      <div class="container2 container-fluid col-lg-4 col-sm-12">
+          <div class="circle2 container-fluid"> 
+            <img src="style/images/web.png" class="circle2">
+          </div>
+        </div>
+
+    
+      <img src="style/images/blue.png" class="blink2">
+      <img src="style/images/yellow.png" class="blink">
+
+        <div class="container3 container-fluid col-lg-4 col-sm-12">
+            <div class="circle3 container-fluid">
+                <img src="style/images/project.png" class="circle3">
+            </div>
+        </div>
+
+        <img src="style/images/blue.png" class="blink2">
+        <img src="style/images/teal.png" class="blink">
+
+        <div class="container2 container-fluid col-lg-4 col-sm-12">
+            <div class="circle2 container-fluid"> 
+              <img src="style/images/web.png" class="circle2">
+            </div>
+          </div>
+          
+          <img src="style/images/yellow.png" class="blink">
+          <img src="style/images/teal.png" class="blink2">
+
+          <div class="container3 container-fluid col-lg-4 col-sm-12">
+              <div class="circle3 container-fluid">
+                  <img src="style/images/project.png" class="circle3">
+              </div>
+          </div>
+
+
+          <img src="style/images/yellow.png" class="blink">
+          <img src="style/images/blue.png" class="blink2">
+
+          <div class="container2 container-fluid col-lg-4 col-sm-12">
+              <div class="circle2 container-fluid"> 
+                <img src="style/images/web.png" class="circle2">
+              </div>
+            </div>
+
+            <img src="style/images/purple.png" class="blink2">
+            <img src="style/images/teal.png" class="blink">
+
+</div>
+
+
+</body>
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script rel="stylesheet" type="text/css" href="logic/main.js"></script>
+
+</script>
+<!-- header scroll -->
+<script>
+window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("navBar");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+
+  </script>
+
+</html>
