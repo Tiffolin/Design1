@@ -26,13 +26,7 @@ Each bubble pulses outward and inward. Making the website more dynamic.
 
 
 ---
-The webpage is mobile responsive
 
-![](appScreenshots/m1.PNG)   
-
-![](appScreenshots/m2.PNG)   
-
----
 
 ## Authors
 * **Tiffany Lin**         [Tiffolin](https://github.com/Tiffolin)
